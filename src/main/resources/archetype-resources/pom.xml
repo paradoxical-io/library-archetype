@@ -11,10 +11,10 @@
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
     <packaging>jar</packaging>
-    <description>Jersey utilities</description>
+    <description>${artifactId}</description>
 
-    <name>jersey-extras</name>
-    <url>http://maven.apache.org</url>
+    <name>${artifactId}</name>
+    <url>http://github.com:paradoxical-io/${artifactId}</url>
 
     <licenses>
         <license>
@@ -84,7 +84,7 @@
             <version>${assertj.version}</version>
             <scope>test</scope>
         </dependency>
-        
+
         <dependency>
             <groupId>com.godaddy</groupId>
             <artifactId>logging</artifactId>
