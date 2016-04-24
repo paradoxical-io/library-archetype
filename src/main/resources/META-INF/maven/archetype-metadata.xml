@@ -16,21 +16,20 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
+      <directory>gpg</directory>
+      <includes>
+        <include>*</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
       <directory></directory>
       <includes>
         <include>settings.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8" filtered="true">
-      <directory></directory>
-      <includes>
         <include>.gitignore</include>
         <include>.travis.yml</include>
         <include>deploy.sh</include>
-        <include>perform-release.sh</include>
-        <include>prep-release.sh</include>
         <include>README.md</include>
-        <include>rollback-release.sh</include>
+        <include>setup-travis.sh</include>
       </includes>
     </fileSet>
   </fileSets>
